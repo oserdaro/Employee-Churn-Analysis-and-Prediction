@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-#import plotly.express as px
+import plotly.express as px
 from PIL import Image
 
 # page title
