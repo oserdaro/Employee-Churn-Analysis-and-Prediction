@@ -1,9 +1,6 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from xgboost import XGBClassifier
-from sklearn.compose import make_column_transformer
-from sklearn.preprocessing import OrdinalEncoder
 import plotly.express as px
 from PIL import Image
 
