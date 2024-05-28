@@ -1,12 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from xgboost import XGBClassifier
-from sklearn.compose import make_column_transformer
-from sklearn.preprocessing import OrdinalEncoder
 from PIL import Image
-from sklearn.compose import make_column_transformer
-from sklearn.preprocessing import OrdinalEncoder
+
 
 # page title
 st.title(":orange[Employee Churn Analysis and Prediction with XGBoost]")
