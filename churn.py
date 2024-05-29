@@ -29,7 +29,7 @@ selected_column = df.columns[selected]
 department_left_counts = df0.groupby([selected_column , 'left']).size().reset_index(name='count')
 fig = px.bar(department_left_counts, x=selected_column, y='count', color='left', barmode='relative')
 fig.update_layout(coloraxis_showscale=False)
-st.success("Showing the visual for : **Number of employees left and retained by "+selected_column+ "**")
+st.success("◽ Showing the visual for : **Number of employees left and retained by "+selected_column+ "**")
 st.plotly_chart(fig, use_container_width=True)
 
 
